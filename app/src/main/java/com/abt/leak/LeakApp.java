@@ -13,14 +13,14 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.abt.leakcanary;
+package com.abt.leak;
 
 import android.app.Application;
 import android.os.StrictMode;
 
 import com.squareup.leakcanary.LeakCanary;
 
-public class CanaryApplication extends Application {
+public class LeakApp extends Application {
 
     @Override
     public void onCreate() {

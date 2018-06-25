@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!--
+<?xml version="1.0" encoding="utf-8"?><!--
   ~ Copyright (C) 2015 Square, Inc.
   ~
   ~ Licensed under the Apache License, Version 2.0 (the "License");
@@ -14,13 +13,9 @@
   ~ See the License for the specific language governing permissions and
   ~ limitations under the License.
   -->
-<resources
-    xmlns:tools="http://schemas.android.com/tools"
-    tools:ignore="MissingTranslation" >
-  <string name="app_name">LeakCanary Sample</string>
-  <string name="start_async_task">Start new AsyncTask</string>
-  <string name="helper_text">Start the async task, <b>rotate the screen</b> and wait for a bit. A
-    wild notification appears.
-  </string>
-  <string name="leak_canary_display_activity_label">Leaks Sample</string>
+<resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation">
+    <string name="app_name">LeakCanary Sample</string>
+    <string name="start_async_task">Start new AsyncTask</string>
+    <string name="helper_text">Start the async task, <b>rotate the screen</b> and wait for a bit. A wild notification appears.</string>
+    <string name="leak_canary_display_activity_label">Leaks Sample</string>
 </resources>

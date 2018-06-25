@@ -1,4 +1,4 @@
-package com.abt.leakcanary;
+package com.abt.leak;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;

@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.abt.leakcanary;
+package com.abt.leak;
 
 import android.annotation.SuppressLint;
 import android.app.Activity;

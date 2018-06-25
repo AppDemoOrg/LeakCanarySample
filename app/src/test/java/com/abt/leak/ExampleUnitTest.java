@@ -1,4 +1,4 @@
-package com.abt.leakcanary;
+package com.abt.leak;
 
 import org.junit.Test;
 

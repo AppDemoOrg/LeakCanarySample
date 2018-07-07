@@ -1,9 +1,5 @@
 .gradle
 /local.properties
-/.idea/workspace.xml
-/build
 /.idea/
-.idea/vcs.xml
-/MemoLeakSample.iml
 /build/
-/.gradle/
+/MemorySample.iml

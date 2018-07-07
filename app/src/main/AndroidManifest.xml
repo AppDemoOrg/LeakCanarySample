@@ -17,9 +17,10 @@
     package="com.abt.leak">
 
     <application
-        android:name="com.abt.leak.LeakApp"
+        android:name="com.abt.leak.MemoryApp"
         android:allowBackup="false"
-        android:icon="@drawable/ic_launcher">
+        android:icon="@drawable/ic_launcher"
+        android:largeHeap="false" >
 
         <activity
             android:name="com.abt.leak.MatActivity"

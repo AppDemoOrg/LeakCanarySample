@@ -13,7 +13,10 @@ public class MemoryApp extends Application {
     public void onCreate() {
         super.onCreate();
         setupLeakCanary();
+        getMaxMemory();
+    }
 
+    private void getMaxMemory() {
         Runtime rt=Runtime.getRuntime();
         long maxMemory=rt.maxMemory();
         String max=Long.toString(maxMemory/(1024*1024));

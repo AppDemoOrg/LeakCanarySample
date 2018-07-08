@@ -1,5 +1,6 @@
 package com.abt.leak;
 
+import android.app.ActivityManager;
 import android.app.Application;
 import android.os.StrictMode;
 import android.util.Log;
@@ -9,6 +10,8 @@ import com.squareup.leakcanary.LeakCanary;
 public class MemoryApp extends Application {
 
     private static final String TAG = MemoryApp.class.getSimpleName();
+    private static ActivityManager mActivityManager;
+
     @Override
     public void onCreate() {
         super.onCreate();
